@@ -44,7 +44,7 @@ class HomePagestate extends State<HomePage> {
   void loadstaticbannerad() {
     staticAd = BannerAd(
         size: AdSize.mediumRectangle,
-        adUnitId: "ca-app-pub-1537596436978987/5443407527",
+      
         listener: BannerAdListener(onAdLoaded: (ad) {
           setState(() {
             staticAdloaded = true;
@@ -61,7 +61,7 @@ class HomePagestate extends State<HomePage> {
   void loadinlinebannerad() {
     inlinead = BannerAd(
         size: AdSize.largeBanner,
-        adUnitId: "ca-app-pub-1537596436978987/7725955935",
+  
         listener: BannerAdListener(onAdLoaded: (ad) {
           setState(() {
             inlineAdloaded = true;
